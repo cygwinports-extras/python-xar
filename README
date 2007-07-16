@@ -1,0 +1,56 @@
+python-xar
+------------------------------------------
+Python bindings for the XAR compression library
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libxar1-1.5.1-1
+  python-2.5.1-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gcc-core-3.4.4-3
+  python-2.5.1-1
+  python-pyrex-0.9.5.1a-3
+  python-setuptools-0.6c5-2
+
+Canonical website:
+  http://code.google.com/p/xar/wiki/pyxar
+
+Canonical download:
+  http://xar.googlecode.com/files/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-xar-0.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-xar-0.4-X.cygport all
+
+This will create:
+  /usr/src/python-xar-0.4-X-src.tar.bz2
+  /usr/src/python-xar-0.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/pyxar-0.4-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/xarfile.dll
+  /usr/share/doc/Cygwin/python-xar-0.4.README
+  /usr/share/doc/python-xar-0.4/README.txt
+
+------------------
+
+Port Notes:
+
+----- version 0.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

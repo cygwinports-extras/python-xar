@@ -1,0 +1,6 @@
+ORIG_PN="pyxar"
+inherit distutils
+
+DESCRIPTION="Extensible archive format"
+HOMEPAGE="http://code.google.com/p/xar/"
+SRC_URI="http://xar.googlecode.com/files/${ORIG_PN}-${PV}.tar.gz"
