@@ -1,4 +1,4 @@
 category: Python
-requires: cygwin libxar1 python
+requires: libxar1 python
 sdesc: "Python bindings for the XAR compression library"
 ldesc: "Python bindings for the XAR compression library"
